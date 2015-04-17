@@ -18,6 +18,8 @@
 	"require": {
 		"php": ">=5.4",
 		"composer/installers": "v1.0.19",
-		"wpackagist-plugin/debug-bar": "~0.8"
+		"wpackagist-plugin/debug-bar": "~0.8",
+		"wpackagist-plugin/debug-bar-slow-actions": "~0.8",
+		"wpackagist-plugin/kint-debugger": "~0.3"
     }
 }
