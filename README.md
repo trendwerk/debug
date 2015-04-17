@@ -1,7 +1,11 @@
 Debug
 ===========
 
-Debug tools for WordPress.
+Debug tools for WordPress. This plugin installs and activates:
+
+- [Debug Bar](https://wordpress.org/plugins/debug-bar/)
+- [Debug Bar Slow Actions](https://wordpress.org/plugins/debug-bar-slow-actions/)
+- [Kint Debugger](https://wordpress.org/plugins/kint-debugger/)
 
 ## Installation
 This plugin needs Composer to manage WordPress. To add this plugin to your project's development dependencies, run:
