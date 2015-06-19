@@ -19,3 +19,14 @@ Or manually add it to your `composer.json`:
 	"trendwerk/debug": "1.0.0"
 },
 ```
+
+Since custom repositories, such as [wpackagist.org][http://wpackagist.org/], are [root-only](https://getcomposer.org/doc/04-schema.md#repositories), you need to specify this repository in your root `composer.json` as well:
+
+```json
+"repositories": [
+	{
+		"type": "composer",
+		"url": "http://wpackagist.org"
+	}
+]
+```
