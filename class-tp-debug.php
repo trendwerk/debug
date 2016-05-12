@@ -24,9 +24,9 @@ class TP_Debug {
 		if( ! defined( 'WP_DEBUG' ) || ! WP_DEBUG )
 			return;
 
-		activate_plugin( 'debug-bar/debug-bar.php' );
-		activate_plugin( 'debug-bar-slow-actions/debug-bar-slow-actions.php' );
-		activate_plugin( 'kint-debugger/Kint.class.php' );
+		activate_plugin( 'debug-bar/debug-bar.php', null, is_multisite() );
+		activate_plugin( 'debug-bar-slow-actions/debug-bar-slow-actions.php', null, is_multisite() );
+		activate_plugin( 'kint-debugger/Kint.class.php', null, is_multisite() );
 	}
 
 } new TP_Debug;
