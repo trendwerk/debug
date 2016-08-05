@@ -1,25 +1,25 @@
 {
-	"name": "trendwerk/debug",
-	"description": "Debug tools for WordPress.",
-	"type": "wordpress-muplugin",
-	"license": "GPL-2.0+",
-	"authors": [
-		{
-			"name": "Harold Angenent",
-			"email": "harold@trendwerk.nl"
-		}
-	],
-	"repositories": [
-		{
-			"type": "composer",
-			"url": "http://wpackagist.org"
-		}
-	],
-	"require": {
-		"php": ">=5.4",
-		"composer/installers": "v1.0.19",
-		"wpackagist-plugin/debug-bar": "~0.8",
-		"wpackagist-plugin/debug-bar-slow-actions": "~0.8",
-		"wpackagist-plugin/kint-debugger": "~0.3"
+  "name": "trendwerk/debug",
+  "description": "Debug tools for WordPress.",
+  "type": "wordpress-muplugin",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Harold Angenent",
+      "email": "harold@trendwerk.nl"
     }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "v1.0.19",
+    "wpackagist-plugin/debug-bar": "~0.8",
+    "wpackagist-plugin/debug-bar-slow-actions": "~0.8",
+    "wpackagist-plugin/kint-debugger": "~0.3"
+  }
 }
