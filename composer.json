@@ -12,7 +12,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "http://wpackagist.org"
+      "url": "https://wpackagist.org"
     }
   ],
   "require": {
@@ -20,6 +20,7 @@
     "composer/installers": "~1",
     "wpackagist-plugin/debug-bar": "~0.8",
     "wpackagist-plugin/debug-bar-slow-actions": "~0.8",
-    "wpackagist-plugin/kint-debugger": "~0.3"
+    "wpackagist-plugin/kint-debugger": "~0.3",
+    "wpackagist-plugin/debug-bar-timber": "~0.3"
   }
 }
